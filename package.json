@@ -22,6 +22,10 @@
     "LICENSE",
     "NOTICE.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Li-y-lgan/dsh-chengfeng-videocut.git"
+  },
   "dependencies": {
     "yaml": "^2.9.0"
   },
