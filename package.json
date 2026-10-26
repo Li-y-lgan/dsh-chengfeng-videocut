@@ -1,0 +1,50 @@
+{
+  "name": "dsh-chengfeng-videocut",
+  "version": "0.1.1",
+  "description": "chengfeng-videocut 中文口播剪辑工作台的 DeepSeek Harness 技能插件：7 个技能（剪口播/字幕/导出/画面/汇报/更新/工作台）+ Runtime 协调脚本，源自 Apache-2.0 项目 Agentchengfeng/chengfeng-videocut-skills。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "skills",
+    "references",
+    "scripts",
+    "runtime-requirements.json",
+    ".codex-plugin",
+    "workbench-skill.lock.json",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "dependencies": {
+    "yaml": "^2.9.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "video",
+    "video-cut",
+    "talking-head",
+    "transcript",
+    "subtitles",
+    "口播",
+    "剪辑",
+    "字幕"
+  ],
+  "license": "Apache-2.0"
+}

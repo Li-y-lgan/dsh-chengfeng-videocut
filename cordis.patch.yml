@@ -1,0 +1,6 @@
+# dsh-chengfeng-videocut 组合包补丁：把 chengfeng 剪辑技能插件插入 profile。
+# 插件加载即把 7 个技能注册进 ctx.skills，并挂 chengfeng_videocut_health 自检工具。
+- insert:
+    - id: chengfeng-videocut-skills
+      name: 'dsh-chengfeng-videocut'
+      config: {}

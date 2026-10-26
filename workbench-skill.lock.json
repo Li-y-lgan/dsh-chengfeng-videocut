@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "skillId": "chengfeng-videocut-workbench",
+  "repository": "Agentchengfeng/chengfeng-videocut-workbench",
+  "commit": "e9e78e0f3aefca1c38a1157817cc411e9757bb12",
+  "sourcePath": ".agents/skills/chengfeng-videocut-workbench",
+  "version": "0.1.0-beta.1",
+  "minimumRuntimeVersion": "0.5.9",
+  "transform": "namespace-default-prompt-v1",
+  "files": {
+    "CITATION.cff": {
+      "sourceSha256": "7312de27d9470e1106888802a6c2d710e2dc4d02630dfdf95397f5c19dd6ac93",
+      "snapshotSha256": "7312de27d9470e1106888802a6c2d710e2dc4d02630dfdf95397f5c19dd6ac93"
+    },
+    "LICENSE": {
+      "sourceSha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "snapshotSha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8"
+    },
+    "NOTICE.md": {
+      "sourceSha256": "8a9ddc6e01d39f396c27db10abe191def53bfe0d09859016628925c31ff13383",
+      "snapshotSha256": "8a9ddc6e01d39f396c27db10abe191def53bfe0d09859016628925c31ff13383"
+    },
+    "SKILL.md": {
+      "sourceSha256": "c542728283c7248e7551904f51e90ab87d73aeb8b140f24a4ef55e94cdf20b5e",
+      "snapshotSha256": "c542728283c7248e7551904f51e90ab87d73aeb8b140f24a4ef55e94cdf20b5e"
+    },
+    "agents/openai.yaml": {
+      "sourceSha256": "b8a5f629c14c1270791fe7f67567e19e5bb13da604cfdd222f5cedb50e9264b4",
+      "snapshotSha256": "588eb418da320a3a9c33a046f85c933f43c43f5ce65de4134bd5f9725d612caa"
+    },
+    "references/connection.md": {
+      "sourceSha256": "553d44f09077a9b06515b812a5eb3598ec4a4ae34c2e3b551bf599528664e186",
+      "snapshotSha256": "553d44f09077a9b06515b812a5eb3598ec4a4ae34c2e3b551bf599528664e186"
+    },
+    "references/deletion.md": {
+      "sourceSha256": "4cb36eeb0e490918f43aee5c284fa5cf27e30cd0ca09bb1d908ad6f568040e25",
+      "snapshotSha256": "4cb36eeb0e490918f43aee5c284fa5cf27e30cd0ca09bb1d908ad6f568040e25"
+    },
+    "references/operations.md": {
+      "sourceSha256": "183dc1e76f51eda262c21e765fcd3f179a9f42a3d22205cb960bfb998a51087a",
+      "snapshotSha256": "183dc1e76f51eda262c21e765fcd3f179a9f42a3d22205cb960bfb998a51087a"
+    }
+  }
+}

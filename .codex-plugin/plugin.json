@@ -1,0 +1,37 @@
+{
+  "name": "chengfeng-videocut",
+  "version": "0.10.11",
+  "description": "Seven task-facing Skills, including a fixed-source workbench operation Skill. Workbench operations require Runtime 0.5.9+ and verified capabilities; the public Runtime 0.4.11 does not satisfy that requirement.",
+  "author": {
+    "name": "Chengfeng",
+    "url": "https://github.com/Agentchengfeng"
+  },
+  "homepage": "https://github.com/Agentchengfeng/chengfeng-videocut",
+  "repository": "https://github.com/Agentchengfeng/chengfeng-videocut-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "video",
+    "talking-head",
+    "transcript",
+    "hyperframes"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "chengfeng-videocut",
+    "shortDescription": "剪口播、工作台操作、成片与维护",
+    "longDescription": "提供七项默认 Skill，包括固定同源的工作台操作方法。新工作台入口要求 Runtime 0.5.9+ 及实际命令能力；公开 0.4.11 不满足时停止，不自动升级。默认发现不等于业务可执行，更新不覆盖本地 cache 或 Product Runtime。",
+    "developerName": "Chengfeng",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "使用 $chengfeng-videocut:chengfeng-cut 剪掉这条视频里的口误，审核后生成删词账本。",
+      "使用 $chengfeng-videocut:chengfeng-visual 给剪好的口播配画面：圈重点或整屏动画。",
+      "使用 $chengfeng-videocut:chengfeng-export 把这个项目导出成成片并抽帧验收。"
+    ],
+    "brandColor": "#16A37A"
+  },
+  "mcpServers": "./.mcp.json"
+}
